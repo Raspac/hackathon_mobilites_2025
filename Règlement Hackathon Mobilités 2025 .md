@@ -1,4 +1,4 @@
-![][image1]
+![](https://github.com/hackathons-mobilites/hackathon_mobilites_2025/blob/main/images_documentation/Hackathon%20mobilite%CC%81s_logo%20simple.jpg)
 
 #  RÈGLEMENT DU HACKATHON MOBILITÉS 2025
 
