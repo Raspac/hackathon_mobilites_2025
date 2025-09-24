@@ -6,7 +6,18 @@ Bienvenue dans le Hackathon Mobilités organisé par Île-de-France Mobilités.
 
 ## _titre avec thème de cette année_
 
-_texte d'intro er présentation en quelques lignes_
+Après l’édition de 2024 portant sur l’usage de l’IA et l’amélioration des services de mobilité, nous nous retrouverons cette année pour faire émerger des projets qui mobilisent la donnée au service d’une mobilité responsable (responsabilité environnementale, accessibilité…). 
+
+L’objectif est d’explorer comment les données, leurs traitements et leurs restitutions peuvent avoir un impact, directement pour les usagers ou pour les autres acteurs en charge des mobilités, de la déclinaison des politiques de mobilités, ou de l’aménagement des territoires.
+
+Nous avons ainsi formulé plusieurs défis et mettrons à la disposition des candidats des données et ressources adaptées pour y répondre.
+
+Cette année nous vous proposons 4 défis :
+Défi 1 - Encourager la pratique du vélo, les **mobilités actives** et l’intermodalité
+Défi 2 - Aider les entreprises à **décarboner** les mobilités de leurs salariés
+Défi 3 - Créer des **outils d’analyses** des mobilités pour les collectivités franciliennes
+Défi 4 - Améliorer **l’accessibilité et le confort** des services de mobilités
+
 
 Ce guide des participant.e.s vous aidera tout au long de ce Hackathon et dans sa phase de préparation. 
 
@@ -19,18 +30,21 @@ Ce guide des participant.e.s vous aidera tout au long de ce Hackathon et dans sa
 
 ## Le programme
 
-### Jour -1 - mercredi 12
-
-
+### Les 5 dates clés du challenge
+1. Les pré-inscriptions sont ouvertes du 1er juillet 2025 au 1er novembre 2025 ;
+2. Mardi 14 octobre de 12h à 13h - [En ligne] Webinaire n°1 - Présentation du hackathon Mobilités 2025
+3. Mardi 4 novembre de 12h à 13h - [En ligne] Webinaire n°2 - Présentation des défis du Hackathon Mobilités 2025;
+4. Mercredi 12 novembre de 12h à 13h - Lancement en ligne - Constitution des équipes du Hackathon Mobilités 2025. Une heure de visio est prévue de 12h à 13h la veille du lancement en présentiel afin de pouvoir constituer les équipes en amont et d’avoir un maximum de temps de production dès le 13 novembre au matin. 
+5. Le hackathon se tient les 13 et 14 novembre 2025 en présentiel à Paris, au premier étage du Pan Piper, 2-4 Imp. Lamier, 75011 Paris. 
 
 ### Jour 1 - jeudi 13 (début à 9h)
 
 | Heure  | Activité                                             |
 |--------|------------------------------------------------------|
 | 9h     | Accueil                                              |
-| 9h30   | Mot d’accueil de la présidente du Jury               |
+| 9h30   | Mot d’accueil de la présidente du jury               |
 | 9h45   | Présentation de la plateforme et des ressources dédiées|
-| 10h05  | Rappels logistiques et installation                  |
+| 10h00  | Rappels logistiques et installation                  |
 | **10h15**| **Lancement des projets**                          |
 | *12h35*  | *Pause déjeuner*                                   |
 | 13h35  | Reprise des projets                                  |
@@ -45,7 +59,7 @@ Ce guide des participant.e.s vous aidera tout au long de ce Hackathon et dans sa
 | 13h30  | Reprise des projets                                  |
 | **15h**    | **Fin des travaux**                              |
 | 15h15  | Pitchs                                               |
-| 16h20  | Délibérations                                        |
+| 16h30  | Délibérations                                        |
 | 16h50  | Mot de conclusion et annonce des résultats           |
 | 17h30  | Cocktail                                             |
 | 19h    | Fin de journée                                       |
@@ -64,7 +78,7 @@ Au cours de ces deux journées, vous relevez un défi en équipe de 4 à 7 perso
 
 #### Le Slack
 
-C'est sur le slack qu'auront lieu les principaux échanges ([lien d'invitation au slack](lien)). Chaque canal possède une description dans un message épinglé.
+C'est sur le slack qu'auront lieu les principaux échanges ([lien d'invitation au slack](https://hackathonmobvingtcinq.slack.com)). Chaque canal possède une description dans un message épinglé.
 - **00-general** : pour échanger librement sur le Hackathon, vous présenter, et poser vos questions à l'équipe d'organisation.
 - **97-ressources** : pour échanger sur les ressources, les outils et les données mises à disposition par Île-de-France Mobilités et ses partenaires
 - **??-défis** : pour échanger sur les 4 défis proposés lors de ce hackathon
@@ -72,7 +86,7 @@ C'est sur le slack qu'auront lieu les principaux échanges ([lien d'invitation a
 
 Une fois ajouté sur le slack, **vous pouvez vous présenter dans le canal 00-general** et échanger dans les canaux dédiés aux différents défis. 
 
-Une fois les équipes constituées, nous vous invitons à rejoindre le salon de votre équipe. C'est l'occasion pour commencer à vous mieux vous connaître et échanger sur la découverte des ressources et données mises à diposition. 
+Les équipes se composeront librement, mais les Organisateurs se réservent les droits de rééquilibrer les profils et niveaux entre les équipes ! Une fois les équipes constituées, vous rejoignez le salon de votre équipe. C'est l'occasion pour commencer à mieux vous connaître et à échanger sur la découverte des ressources et données mises à disposition. 
 
 #### Le répertoire de code
 
@@ -208,23 +222,25 @@ Les données ouvertes spécifiquement pour le Hackathon ne sont pas encore à un
 <details>
 <summary>4. Peut-on participer au Hackathon si on ne peut pas être physiquement présent·e pendant les deux jours de l’événement ?</summary>
 </br>
-Non, il n’est pas possible de participer au Hackathon si vous ne pouvez pas physiquement être présent·e avec votre équipe pendant les deux jours. Il nous paraît important d’être ensemble pendant cet événement, et de favoriser des échanges interpersonnels physiques. De notre point de vue, quand on participe à un Hackathon, c’est aussi pour les rencontres qu’on peut y faire.
+Non, il n’est pas possible de participer au hackathon si vous ne pouvez pas physiquement être présent·e avec votre équipe **à Paris au Pan Piper, le 13 et le 14 novembre 2025, pendant les deux jours** . Il nous paraît important d’être ensemble pendant cet événement, et de favoriser des échanges interpersonnels physiques. De notre point de vue, quand on participe à un hackathon, c’est aussi pour les rencontres qu’on peut y faire.
 </details></br>
 <details>
 <summary>5. Qu’est-il prévu pour la restauration pendant l’événement ?</summary>
 </br>
-L’organisation se charge de petits déjeuners d’accueil et des repas du midi. Il vous sera demandé vos préférences (par exemple végétarien·ne ou non) en amont de l’événement. En revanche, nous ne prenons pas en charge les dîners. 
+L’organisation se charge de petits déjeuners d’accueil et des repas du midi. Il vous sera demandé vos préférences (par exemple végétarien·ne ou non) en amont de l’événement. Nous ne prenons pas en charge les dîners, en revanche un cocktail de clôture est prévu le vendredi après la remise des prix à partir de 18h, toujours dans le même espace, au premier étage du Pan Piper à Paris. 
 </details></br>
 <details>
 <summary>6. Comment puis-je trouver une équipe ?</summary>
 </br>
-La constitution des équipes s’effectue en amont de l’événement. Certaines équipes sont déjà constituées, d’autres pas encore. Si vous n’avez pas d’équipe, nous vous recommandons de vous présenter dans le slack du hackathon et indiquer le défi qui vous intéresse le plus. Les échanges se font par ce canal. L’organisation aidera également à rapprocher les participant·e·s et les équipes en cours de constitution (n’hésitez pas à les contacter sur le slack).
+La constitution des équipes s’effectue en amont de l’événement. Certaines équipes sont déjà constituées, d’autres pas encore. Cette année, nous mettons en place un pré-lancement du Hackathon en ligne, la veille de l'événement, pour que les participant·e·s puissent constituer leurs équipes. En effet, le mercredi 12 novembre de 12h à 13h, un rendez-vous en visio est prévu pour finaliser les équipes et ainsi démarrer plus rapidement le Hackathon le 13 novembre au matin. 
+</br>
+Si vous n’avez pas d’équipe et/ou que vous n’avez pas pu assister lors du rendez-vous en visio du 12 novembre, nous vous recommandons de vous présenter dans le slack du Hackathon et d’indiquer le défi qui vous intéresse le plus. Les échanges se font par ce canal. L’organisation aidera également à rapprocher les participant·e·s et les équipes en cours de constitution (n’hésitez pas à les contacter sur le slack dédié).
 </details>
 </br>
 <details>
 <summary>7. Comment rejoindre le Slack de l’événement ?</summary>
 </br>
-Pour rejoindre le slack, il suffit de suivre ce <a href="https://join.slack.com/t/dataiailedefr-mya4689/shared_invite/zt-2u2bo2v10-YcUO~FlnNwl~W0mLCZLBUQ">lien</a>. Nous vous invitons à vous présenter dans le canal #01-welcome. Vous y trouverez les autres participant·e·s et tous les échanges passeront par cet outil.
+Pour rejoindre le slack, il suffit de suivre ce <a href="https://join.slack.com/t/dataiailedefr-mya4689/shared_invite/zt-2u2bo2v10-YcUO~FlnNwl~W0mLCZLBUQ">lien</a>. Nous vous invitons à vous présenter dans le canal #00-general. Vous y trouverez les autres participant·e·s et tous les échanges passeront par cet outil.
 </details>
 </br>
 <details>
