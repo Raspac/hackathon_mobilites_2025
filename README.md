@@ -4,7 +4,7 @@
 
 Bienvenue dans le Hackathon Mobilités organisé par Île-de-France Mobilités.
 
-## _titre avec thème de cette année_
+## _Hackathon Mobilités_
 
 Après l’édition de 2024 portant sur l’usage de l’IA et l’amélioration des services de mobilité, nous nous retrouverons cette année pour faire émerger des projets qui mobilisent la donnée au service d’une mobilité responsable (responsabilité environnementale, accessibilité…). 
 
@@ -69,10 +69,10 @@ Ce guide des participant.e.s vous aidera tout au long de ce Hackathon et dans sa
 
 Au cours de ces deux journées, vous relevez un défi en équipe de 4 à 7 personnes. L'objectif est de proposer un projet qui répondre à un des 4 défis proposés. [Les défis sont présentés dans ce document](lien). 
 
-- **Défi 1** - texte
-- **Défi 2** - texte
-- **Défi 3** - texte
-- **Défi 4** - texte
+- **Défi 1** - Mobilités actives et intermodalité : évaluation d'impact et propositions d'outils
+- **Défi 2** - Outils à destination des entreprises
+- **Défi 3** - Outils à destination des collectivités territoriales
+- **Défi 4** - Accessibilité et confirt des usagers des transports publics
 
 ## Les ressources et les outils
 
@@ -80,13 +80,13 @@ Au cours de ces deux journées, vous relevez un défi en équipe de 4 à 7 perso
 
 C'est sur le slack qu'auront lieu les principaux échanges ([lien d'invitation au slack](https://hackathonmobvingtcinq.slack.com)). Chaque canal possède une description dans un message épinglé.
 - **00-general** : pour échanger librement sur le Hackathon, vous présenter, et poser vos questions à l'équipe d'organisation.
-- **97-ressources** : pour échanger sur les ressources, les outils et les données mises à disposition par Île-de-France Mobilités et ses partenaires
-- **??-défis** : pour échanger sur les 4 défis proposés lors de ce hackathon
-- **??-équipe-nom-équipe** : pour échanger en équipe
+- **01-équipe-X-nom-équipe** : pour échanger en équipe
+- **02-ressources et outils** : pour échanger sur les ressources et les outils mis à disposition par Île-de-France Mobilités 
+- **03-données** : pour échanger sur les données mises à disposition par Île-de-France Mobilités et ses partenaires
 
-Une fois ajouté sur le slack, **vous pouvez vous présenter dans le canal 00-general** et échanger dans les canaux dédiés aux différents défis. 
+Une fois ajouté sur le slack, **vous pouvez vous présenter dans le canal 00-general** et échanger dans les canaux dédiés. 
 
-Les équipes se composeront librement, mais les Organisateurs se réservent les droits de rééquilibrer les profils et niveaux entre les équipes ! Une fois les équipes constituées, vous rejoignez le salon de votre équipe. C'est l'occasion pour commencer à mieux vous connaître et à échanger sur la découverte des ressources et données mises à disposition. 
+Les équipes se composeront librement, mais les organisateurs se réservent les droits de rééquilibrer les profils et niveaux entre les équipes ! Une fois les équipes constituées, vous rejoignez le salon de votre équipe. C'est l'occasion pour commencer à mieux vous connaître et à échanger sur la découverte des ressources et données mises à disposition. 
 
 #### Le répertoire de code
 
