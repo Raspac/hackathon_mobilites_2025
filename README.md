@@ -123,8 +123,8 @@ Les principaux services proposés :
 |----------------|-------------|----------------------|----------------------|
 | Jupyter python | IDE Jupyter avec les libraires data python pré-installées | Environnements de développement |dbl-hackathon : une instance par équipe|
 | VSCode python | Visual Studio Code avec les libraire data python pré-installées | Environnements de développement |dbl-hackathon : une instance par équipe|
-| Cloudbeaver | pour vos bases de données | Base de données |espace personnel (non partageable)|
-| Metabase | pour analyser et visualiser vos données | Dataviz |dbl-hackathon : une instance commune à toutes les équipes|
+| Cloudbeaver | Pour vos bases de données | Base de données |espace personnel (non partageable)|
+| Metabase | Pour analyser et visualiser vos données | Dataviz |dbl-hackathon : une instance commune à toutes les équipes|
 
 #### Les ressources à votre disposition
 
@@ -134,11 +134,10 @@ Vous disposez d'un certain nombre de ressources. **Le but n'est pas de toutes le
 
 | Ressource | Description | Lien |
 |-----------|-------------|------|
-| Les ressources IA | Accès aux ressources et modèles IA | [Lien secrets Onyxia](lien) |
-| Les données et documents | Liste de toutes les données et documents | [lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A) |
-| Le notebooks de prise en main des données | Notebook pour prendre en main certains jeux de données | [lien](https://github.com/hackathons-mobilites/hackathon_mobilites_2025/tree/main/notebooks) |
-| Les snippets de code | Snippets de code pour rapidement prendre en main les APIs | [lien](/notebooks/HM2025 - Snippets de code.ipynb) |
-| Le scritps de itineraires piétonniers | permet de générer des itinéraires entre une gare et un POI | [lien](/notebooks/HM2025 - Snippets de code.ipynb) |
+| Les ressources IA | Accès aux LLM déployés sur Azure par Ile-de-France Mobilités | [Snippet de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) + URL endpoint et secrets communiqués via Slack|
+| Les données et documents | Liste de toutes les données et documents | [Airtable](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A) |
+| Le notebook de prise en main des ressources | Notebook pour prendre en main certains jeux de données et ressources | [Snippet de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) |
+| Le script de génération d'itineraires piétons | Module Python permettant de générer des itinéraires entre une gare et un POI | [ReadMe](/scripts/itineraires_pietons/README.md) |
 
 
 ##### Les données et documents
@@ -157,14 +156,8 @@ Certains jeux de données ont été spécialement mis à disposition pour le Hac
 
 Ces **[snippets de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
 
-#### Les exemples (notebook)
-
-Vous pouvez **lancer les notebooks exemple directement sur Onyxia**. Pour cela, **assurez vous d'être connecté·e·s sur Onyxia et d'être sur le projet "dlb-hackathon"**, puis lancez un service type VSCODE-Python et importez-y les [notebook exemples](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) du dossier notebook de ce projet github.
-
-Vous avez également à disposition un [guide d'utilisation du stockage des données sur Onyxia](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb).
-
 #### La documentation
-Comme d'habitude, lisez les documentations en ligne des services utilisés !
+Comme d'habitude, lisez les documentations en ligne des services utilisés, idem pour les jeux de données : un README par dossier associé !
 
 ## Vos résultats
 
