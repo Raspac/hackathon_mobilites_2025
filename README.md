@@ -1,4 +1,4 @@
-![Logo du Hackathon Mobilités](images_documentation/Hackathon mobilités_logo simple.jpg)
+![Logo du Hackathon Mobilités](/images_documentation/Hackathon mobilités_logo simple.jpg)
 
 # Guide des participant·e·s au Hackathon Mobilités 2025
 
