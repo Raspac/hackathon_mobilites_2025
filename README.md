@@ -1,4 +1,4 @@
-![Logo du Hackathon Mobilités](/images_documentation/Hackathon%20mobilit%C3%A9s_logo%20simple.jpg)
+![Logo du Hackathon Mobilités](images_documentation/Hackathon%20mobilit%C3%A9s_logo%20simple.jpg)
 
 # Guide des participant·e·s au Hackathon Mobilités 2025
 
@@ -95,7 +95,7 @@ Chaque équipe aura son propre **répertoire de code public** (Github ou Gitlab)
 Une fois un service d'IDE déployé sur Onyxia (voir ci-dessous) vous pouvez cloner votre répertoire pour travailler dessus.
 
 Deux choses : 
-- **Pour le README, veuillez [utiliser ce modèle](/docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonmobilites2025* à la description de votre répertoire (voir image ci-dessous)
 
 
@@ -109,7 +109,7 @@ C'est une application web open-source développée par l’Insee conçue pour le
 2. Une fois connecté·e à Onyxia, vous avez accès votre projet personnel. Vous serez ajouté·e au projet dédié au hackathon **"dlb-hackathon"** (voir image ci-dessous).
 3. **Toutes les équipes travaillent à partir de ce projet**. C'est dans ce projet que sont partagées en tant que variables d'environnement les clés des différentes APIs et ressources mises à disposition.
 
-![Capture d'écran sélection du projet Onyxia](/images_documentation/onyxia%20accueil.png)
+![Capture d'écran sélection du projet Onyxia](images_documentation/onyxia%20accueil.png)
 
 Vous pouvez ensuite **lancer des services** (par exemple un service Visual Studio Code Python), et les lier au repositoire de code de votre groupe. Nommez bien vos services avec le nom de votre équipe "EQUIPE X".
 
@@ -134,10 +134,10 @@ Vous disposez d'un certain nombre de ressources. **Le but n'est pas de toutes le
 
 | Ressource | Description | Lien |
 |-----------|-------------|------|
-| Les ressources IA | Accès aux LLM déployés sur Azure par Ile-de-France Mobilités | [Snippet de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) + URL endpoint et secrets communiqués via Slack|
+| Les ressources IA | Accès aux LLM déployés sur Azure par Ile-de-France Mobilités | [Snippet de code](notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) + URL endpoint et secrets communiqués via Slack|
 | Les données et documents | Liste de toutes les données et documents | [Airtable](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A) |
-| Le notebook de prise en main des ressources | Notebook pour prendre en main certains jeux de données et ressources | [Snippet de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) |
-| Le script de génération d'itineraires piétons | Module Python permettant de générer des itinéraires entre une gare et un POI | [ReadMe](/scripts/itineraires_pietons/README.md) |
+| Le notebook de prise en main des ressources | Notebook pour prendre en main certains jeux de données et ressources | [Snippet de code](notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) |
+| Le script de génération d'itineraires piétons | Module Python permettant de générer des itinéraires entre une gare et un POI | [ReadMe](scripts/itineraires_pietons/README.md) |
 
 
 ##### Les données et documents
@@ -146,7 +146,7 @@ Pour entraîner vos algorithmes, visualiser des données, utiliser des APIs ou e
 
 Ils sont accessibles [depuis ce lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A). Vous pouvez **filtrer les données sur le défi qui vous intéresse**. Certaines ressources sont issues du [Catalogue PRIM](https://prim.iledefrance-mobilites.fr/fr), d'autres sont directement ajoutées dans les fichiers du projet Onyxia 'dlb-hackathon'.
 
-![Liste des données](/images_documentation/airtable.png)
+![Liste des données](images_documentation/airtable.png)
 
 ##### Les notebook de prise en main des données
 
@@ -154,7 +154,7 @@ Certains jeux de données ont été spécialement mis à disposition pour le Hac
 
 ##### Les snippets de code
 
-Ces **[snippets de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
+Ces **[snippets de code](notebooks/HM2025%20-%20Snippets%20de%20code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
 
 #### La documentation
 Comme d'habitude, lisez les documentations en ligne des services utilisés, idem pour les jeux de données : un README par dossier associé !
@@ -166,13 +166,13 @@ Vos projets viendront alimenter la communauté Data IA et mobilités. **Les réa
 
 Concrètement, vous allez réaliser :
 - un [support de présentation](https://drive.google.com/drive/u/0/folders/1F9pkX9DwDJxw5rXWIiKHeD_um1sa5BH9) pour le pitch ;
-- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](/docs/Template%20README%202025.md) doit vous servir à documenter votre projet ;
+- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](docs/Template%20README%202025.md) doit vous servir à documenter votre projet ;
 - tout autre forme qui pourra valoriser votre projet
 
 **Chaque équipe présentera son projet au jury à l’oral**, dans un temps limité. Vous avez 4 minutes pour pitcher votre projet, suivies de 2 minutes de Q&R.
 
 Rappel : 
-- **Pour le README, veuillez [utiliser ce modèle](/docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonmobilites2025* à la description de votre répertoire (voir image ci-dessous)
 - **Ajoutez le lien de votre répertoire** dans vos diapositives de pitch + vos canal slack en message épinglé
 
@@ -185,7 +185,7 @@ Rappel :
 
 Voici la grille qui sera remise au Jury (à titre indicatif, le Jury est souverain dans ses choix !)
 
-![Grille évaluation](/images_documentation/grille%20eval.png)
+![Grille évaluation](images_documentation/grille%20eval.png)
 
 
 ## Foire Aux Questions (FAQ)
