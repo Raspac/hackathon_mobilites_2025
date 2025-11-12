@@ -11,7 +11,7 @@ git clone https://github.com/hackathons-mobilites/hackathon_mobilites_2025.git
 - Créer une nouvelle branche avec le nom de votre équipe :
 
 ``` shell
-git checkout -b equipe-{nom de votre équipe}
+git checkout equipe-{numéro de votre équipe}
 ```
 
 - Se déplacer dans le sous-dossier /resultats/repository :
