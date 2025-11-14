@@ -11,6 +11,7 @@ class EnrichJob(JobRunner):
         self.carte_pmr_path = "/home/onyxia/work/hackathon_mobilites_2025/data/interim/carte_pmr.parquet"
         self.validation_path = "/home/onyxia/work/hackathon_mobilites_2025/data/interim/validation_pourcentage.parquet"
         self.etablissements_path = "/home/onyxia/work/hackathon_mobilites_2025/data/interim/etablissements.gpq"
+        self.ascenseurs_path = "/home/onyxia/work/hackathon_mobilites_2025/data/raw/etat-des-ascenseurs.csv"
         self.out_path = "/home/onyxia/work/hackathon_mobilites_2025/data/enrich/final_table.gpq"
 
     def process(self):
@@ -18,6 +19,7 @@ class EnrichJob(JobRunner):
         df_carte_pmr = LoaderLocal.loader_parquet(self.carte_pmr_path)
         df_validation = LoaderLocal.loader_parquet(self.validation_path)
         df_etablissement = LoaderLocal.loader_geoparquet(self.etablissements_path)
+        df_ascenseurs = LoaderLocal.loader_csv(self.ascenseurs_path, sep = ";")
 
         # Jointure avec la carte PMR
         df_join_carte = pd.merge(df_ref_gare, df_carte_pmr, on='station_clean', how='right')
@@ -26,6 +28,7 @@ class EnrichJob(JobRunner):
             (df_join_carte['ligne'] == '') |
             (df_join_carte['ligne'] == df_join_carte['res_com'])
         ].copy()
+
         # Jointure avec les validations
         df_filter_carte['id_ref_zdc'] = df_filter_carte['id_ref_zdc'].astype(str)
         df_validation['id_zdc'] = df_validation['id_zdc'].astype(str)
@@ -83,5 +86,27 @@ class EnrichJob(JobRunner):
 
         print("✅ Calcul de LGF_250m / LGF_500m terminé.")
 
+        #Group by station, count ascenseurs
+        df_asc_counts = (
+            df_ascenseurs
+                .groupby("zdcid")['liftid']
+                .nunique()  # counts unique liftid per zdcid
+                .reset_index(name='n_lifts')  # reset index and rename the column
+        )
+
+        # Cast zdcid to string (Utf8 in Polars)
+        df_asc_counts['zdcid'] = df_asc_counts['zdcid'].astype(str)
+
+        # Cast id_ref_zdc: first to float, then to int, then to string
+        df_final['id_ref_zdc'] = df_final['id_ref_zdc'].astype(float).astype('Int64').astype(str)
+
+        df_final_with_ascenseurs = pd.merge(
+            df_final,
+            df_asc_counts,
+            left_on="id_ref_zdc",
+            right_on="zdcid",
+            how="left"
+        )
+
         # Ecriture en GeoParquet
-        WriterLocal.write_geoparquet(df_final, self.out_path)
+        WriterLocal.write_geoparquet(df_final_with_ascenseurs, self.out_path)
